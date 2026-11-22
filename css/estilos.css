@@ -1,0 +1,60 @@
+/* Hoja de estilos - Tecnologías Web */
+
+/* Estilos General */
+body { zoom: 0.75; font-family: Arial, sans-serif; color: #252D36; margin: 0; line-height: 1.7; }
+h1 { color: #17466E; font-size: 36px; margin: 0 0 25px 0; }
+section h1 { overflow: hidden; }
+.nota { background: #E8F1F8; color: #17466E; padding: 20px 25px; border-radius: 12px; }
+img.izq[src$="inicio.jpg"] { width: 440px; height: 330px; }
+h2 { color: #17466E; font-size: 28px; margin: 0 0 15px 0; }
+h3 { color: #1769AA; }
+p { color: #444444; margin-bottom: 15px; }
+
+/* Encabezado - menu de navegación */
+header { overflow: auto; padding: 0 80px; border-bottom: 1px solid #DCE3EA; }
+.logo { float: left; margin: 0; line-height: 76px; font-size: 15px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #17466E; }
+nav { float: right; }
+nav ul { list-style: none; margin: 0; padding: 0; }
+nav li { display: inline; }
+nav a { display: inline-block; margin-left: 34px; padding: 27px 0 23px 0; color: #687582; text-decoration: none; border-bottom: 3px solid #ffffff; }
+nav a:hover { color: #1769AA; border-bottom: 3px solid #1769AA; }
+nav a.activo { color: #1769AA; font-weight: bold; border-bottom: 3px solid #1769AA; }
+
+/* Contenido principal */
+main { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+section { margin-bottom: 40px; padding-top: 40px; border-top: 1px solid #DCE3EA; overflow: auto; }
+section:first-of-type { padding-top: 0; border-top: none; }
+img { width: 380px; height: 260px; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 18px rgba(23,70,110,0.18); }
+img[src$="gobierno-digital.png"] { object-position: center top; }
+.der { float: right; margin: 0 0 20px 30px; }
+.izq { float: left; margin: 0 30px 20px 0; }
+article { background: #E8F1F8; border-radius: 12px; padding: 15px 25px; margin-top: 20px; clear: both; }
+iframe { display: block; margin: 20px auto; }
+
+/* Barra lateral aside */
+aside { background: #F3F6F9; padding: 20px 80px; clear: both; }
+
+/* Tablas */
+table { border-collapse: collapse; width: 100%; clear: both; }
+th, td { padding: 10px; border-bottom: 1px solid #DCE3EA; }
+th { text-align: left; color: #1769AA; border-bottom: 2px solid #1769AA; }
+caption { font-weight: bold; padding: 8px; }
+
+/* Formulario */
+form { max-width: 520px; margin: 0 auto; }
+label { display: block; margin-top: 15px; font-weight: bold; }
+input, textarea { width: 100%; padding: 10px; border: 1px solid #DCE3EA; border-radius: 6px; box-sizing: border-box; }
+input:focus, textarea:focus { border: 1px solid #1769AA; outline: 2px solid #E8F1F8; }
+button { margin-top: 20px; background: #1769AA; color: #ffffff; border: none; padding: 12px 28px; border-radius: 6px; }
+
+/* Pie de página */
+footer { text-align: center; color: #687582; padding: 20px; border-top: 1px solid #DCE3EA; }
+
+/* Pantallas angostas */
+@media (max-width: 1000px) {
+  header { padding: 0 20px; }
+  nav { float: none; clear: both; }
+  nav a { margin: 0 20px 0 0; padding: 10px 0; }
+  .der, .izq { float: none; margin: 0 0 20px 0; }
+  img, img.izq[src$="inicio.jpg"] { width: 100%; height: auto; }
+}
