@@ -1,7 +1,7 @@
 /* Hoja de estilos - Tecnologías Web */
 
 /* Estilos General */
-body { zoom: 0.75; font-family: Arial, sans-serif; color: #252D36; margin: 0; line-height: 1.7; }
+body { font-family: Arial, sans-serif; color: #252D36; margin: 0; line-height: 1.7; }
 h1 { color: #17466E; font-size: 36px; margin: 0 0 25px 0; }
 section h1 { overflow: hidden; }
 .nota { background: #E8F1F8; color: #17466E; padding: 20px 25px; border-radius: 12px; }
